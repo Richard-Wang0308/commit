@@ -139,12 +139,12 @@ async def run_miner(config: argparse.Namespace) -> None:
     # 1) Setup wallet, subtensor, metagraph, etc.
     wallet, subtensor, metagraph, miner_uid = await setup_bittensor_objects(config)
 
-    # owner="Richard-Wang0308"
-    owner="alcantara0123"
+    owner="Richard-Wang0308"
+    # owner="alcantara0123"
     # repo="nova-blueprint-miner"
     # repo="nova-blueprint-miner-v2"
     # repo="nova-miner"
-    repo="nova-1119"
+    repo="nova-1202-v1"
     branch="master"
 
     try: 
